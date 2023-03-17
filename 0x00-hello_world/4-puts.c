@@ -1,10 +1,10 @@
 #include <istdio.h>
 /**
- * main - A program that prints new line using puts function
+ * main - Puts function to print new line
  * return: 0(success)
  */
 int main(void)
 {
-puts("Programming is like building a multilingual puzzle);
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
-}	
+}
