@@ -1,20 +1,23 @@
 #include <stdio.h>
 /**
- * Author: Jefferson M
- * Purpose: print whether number is positive or negative
- * Language: C language
- * return: 0(positive)
+ * main - Entry point
+ *
+ * Description: Program to assign random numbers as postive or negative
+ * parameters: if else
+ *
+ * return: 0(success)
  */
+
 int main(void)
 {
-	int n;
-		if (n == 0)
-		{
-			printf("positive\n");
-		}
-		else if (n < 0)
-		{
-			printf("negative\n");
-		}
-		return (0);
+	int = n;
+	if n > 0
+	{
+		printf("n is positive);
+	}
+	else
+	{
+	printf("n is negative");
+	}
+	return (0);
 }
