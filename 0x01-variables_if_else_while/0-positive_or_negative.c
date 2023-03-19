@@ -10,14 +10,12 @@
 
 int main(void)
 {
-	int = n;
-	if n > 0
-	{
-		printf("n is positive);
-	}
+	int n
+	if (n > 0)
+		printf("n is positive");
+	else if (n == 0)
+		printf("n is zero");
 	else
-	{
-	printf("n is negative");
-	}
+		printf("n is negative");
 	return (0);
 }
