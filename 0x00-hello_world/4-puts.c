@@ -1,10 +1,12 @@
-#include <istdio.h>
+#include <stdio.h>
 /**
- * main - Puts function to print new line
+ * main - A program that prints new line using puts
+ * language: C language
+ * aurthur: Jefferson
  * return: 0(success)
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
