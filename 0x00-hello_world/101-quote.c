@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Program that prints line in standard output without printf of puts
+ * Description: Program that prints line in standard output with fput
  * parameters: fput
  *
  * return: Always 1 (success)
