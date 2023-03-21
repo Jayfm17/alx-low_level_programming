@@ -1,13 +1,11 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - Entry point
- *
- * Description: program prints file using putchar
- * parameters: putchar
+ * _putchar - writed the character c to stdout
+ * &c: The character to print
  *
  * return: on success return 1.
- * on error, -1 is returned
+ * on error, -1 is returned, and error is returned appropriately
  */
 int _putchar(char c)
 	(
