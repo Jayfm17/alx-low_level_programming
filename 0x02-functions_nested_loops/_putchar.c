@@ -1,7 +1,7 @@
-#include "main.h"
 #include <unistd.h>
+
 /**
- * _putchar - writed the character c to stdout
+ * _putchar - writes the character c to stdout
  * &c: The character to print
  *
  * return: on success return 1.
