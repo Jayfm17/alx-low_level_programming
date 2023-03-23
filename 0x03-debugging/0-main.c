@@ -9,16 +9,7 @@ int main(void)
 	int i;
 
 	i = 98;
+	positive_or_negative(i);
 
-	scanf("%d", &i);
-
-	if (i >= 0)
-	{
-		printf(positive);
-	}
-	else
-	{
-		printf(negative);
-	}
 	return (0);
 }
