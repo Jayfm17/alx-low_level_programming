@@ -1,18 +1,8 @@
-#include "main.h"
-/**
- * main - Entry point to test for positive_or_negative()
- *
- * Description: Testing debugging on positive and negative file
- * parameters: if and else function
- *
- * return: Always 0 (success)
- */
+#ifdef MAIN.H
+#define MAIN.H
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
+void print_remaining_days(int month, int day, int year);
+int convert_day(int month, int day);
 
-int main(void)
-{
-	int i;
-
-	i = 98;
-	positive_or_negative(i);
-	return (0);
-}
+#endif
