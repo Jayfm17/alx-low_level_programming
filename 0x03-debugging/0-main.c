@@ -7,11 +7,12 @@
 int main(void)
 {
 	int i;
-	
-	for(i = 98);
-	{
-	printf("positive_or_negative(i)");
-	}
+
+	i = 98;
+	if (i >= 0)
+		printf("positive");
+	else
+		printf("negative");
 
 	return (0);
 }
